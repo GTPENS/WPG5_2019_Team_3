@@ -4,7 +4,14 @@ using System.Collections;
 //This script manages the player object
 public class Player : MonoBehaviour
 {
+    public int score;
     private int speed = 5;
+    public bool grab = false;
+    private RaycastHit2D hit;
+    public float distance;
+    public Transform holdPoint;
+    public float throwForce;
+  
     void Update()
     {
         //Get our raw inputs
@@ -14,6 +21,7 @@ public class Player : MonoBehaviour
         Vector2 direction = new Vector2(x, y).normalized;
         //Move the player
         Move(direction);
+       
     }
 
     void Move(Vector2 direction)
@@ -31,27 +39,15 @@ public class Player : MonoBehaviour
         //Update the player's position
         transform.position = pos;
     }
+   
+    
 
-    void OnTriggerEnter2D(Collider2D c)
+   
+    private void OnDrawGizmos()
     {
-        //Get the layer of the collided object
-        string layerName = LayerMask.LayerToName(c.gameObject.layer);
-        //If the player hit an enemy bullet or ship...
-        if (layerName == "Player" )
-        {
-          
-
-        }
-    }
-
-    private void OnTriggerStay2D(Collider2D c)
-    {
-        string layerName = LayerMask.LayerToName(c.gameObject.layer);
-        //If the player hit an enemy bullet or ship...
-        if ( layerName == "Rubish")
-        {
-
-
-        }
+        Gizmos.DrawLine(transform.position, transform.position + Vector3.right * transform.localScale.x * distance);
     }
 }
+
+        
+    

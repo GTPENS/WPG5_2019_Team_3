@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 2235097197749969014}
   - component: {fileID: 8079559988645149404}
   - component: {fileID: 2508984475371366442}
+  - component: {fileID: -5755855434942361486}
   m_Layer: 0
   m_Name: Rubish
-  m_TagString: Untagged
+  m_TagString: Rubish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105,7 +106,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4158017232163147005}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -118,3 +119,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-5755855434942361486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4158017232163147005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ce71b94c91360940b66ca6d411d97d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
