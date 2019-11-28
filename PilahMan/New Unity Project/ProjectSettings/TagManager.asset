@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Rubish
   - TrashBin
+  - HomePosition
   layers:
   - Default
   - TransparentFX
