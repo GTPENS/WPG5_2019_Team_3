@@ -5,7 +5,7 @@ using System.Collections;
 public class Player : MonoBehaviour
 {
     public int score;
-    private int speed = 5;
+    private float speed = 5;
     public bool grab = false;
     private RaycastHit2D hit;
     public float distance;
