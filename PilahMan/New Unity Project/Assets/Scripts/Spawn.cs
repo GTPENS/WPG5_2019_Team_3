@@ -29,7 +29,7 @@ public class Spawn : MonoBehaviour
 
         while (!stop)
         {
-            Vector3 screenPosition = Camera.main.ScreenToWorldPoint(new Vector3(Random.Range(0, Screen.width), Random.Range(0, Screen.height), 1));
+            Vector3 screenPosition = (new Vector3(Random.Range(-38, 43), Random.Range(-28, 28), 0));
             Instantiate(rubish[0], screenPosition, Quaternion.identity);
 
             yield return new WaitForSeconds(spawnrate);
