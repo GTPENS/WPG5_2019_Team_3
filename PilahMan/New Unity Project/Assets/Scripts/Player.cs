@@ -1,5 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Photon.Pun;
+using UnityEngine.UI;
+using Photon.Pun.UtilityScripts;
 
 //This script manages the player object
 public class Player : MonoBehaviour
@@ -11,17 +14,48 @@ public class Player : MonoBehaviour
     public float distance;
     public Transform holdPoint;
     public float throwForce;
-  
+    public Text scoretext;
+    public Text enemyScore;
+    public Animator animator;
+    public void Start()
+    {
+        //if (PhotonNetwork.IsMasterClient)
+        //{
+        //    scoretext = GameObject.Find("skorp1").GetComponent<Text>();
+            
+
+        //}
+        //else
+        //{
+        //    enemyScore = GameObject.Find("skorp2").GetComponent<Text>();
+            
+        //};
+
+        
+        
+       
+
+        
+    }
     void Update()
     {
         //Get our raw inputs
+        animator.SetFloat("direction", Input.GetAxisRaw("Horizontal"));
         float x = Input.GetAxisRaw("Horizontal");
         float y = Input.GetAxisRaw("Vertical");
         //Normalize the inputs
         Vector2 direction = new Vector2(x, y).normalized;
         //Move the player
         Move(direction);
-       
+        //scoretext.text = score.ToString();
+        if (PhotonNetwork.IsMasterClient)
+        {
+            scoretext = GameObject.Find("skorp1").GetComponent<Text>();
+            PhotonNetwork.PlayerList[0].SetScore(score);
+
+        
+        };
+        scoretext.text = score.ToString();
     }
 
     void Move(Vector2 direction)
@@ -39,10 +73,17 @@ public class Player : MonoBehaviour
         //Update the player's position
         transform.position = pos;
     }
-   
-    
 
-   
+
+    [PunRPC]
+    void ScoreMessage(int enyscore)
+    {
+        print("GOT SCORE: " + enyscore + " !");
+
+        if (enemyScore != null)
+            enemyScore.text = enyscore + "";
+    }
+
     private void OnDrawGizmos()
     {
         Gizmos.DrawLine(transform.position, transform.position + Vector3.right * transform.localScale.x * distance);

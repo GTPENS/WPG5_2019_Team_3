@@ -161,7 +161,7 @@ GameObject:
   - component: {fileID: 80153153}
   - component: {fileID: 80153155}
   - component: {fileID: 80153154}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pohon (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -258,7 +258,7 @@ GameObject:
   - component: {fileID: 110736727}
   - component: {fileID: 110736726}
   - component: {fileID: 110736725}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -347,12 +347,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 110736724}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -41, y: 0.2, z: 0}
-  m_LocalScale: {x: 13.975, y: 0.5, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -24.898052, y: 0.34390646, z: 7.796875}
+  m_LocalScale: {x: 13.975008, y: 0.50000024, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 137339083}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &115514727
 GameObject:
@@ -365,7 +365,7 @@ GameObject:
   - component: {fileID: 115514730}
   - component: {fileID: 115514729}
   - component: {fileID: 115514728}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -454,13 +454,60 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 115514727}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 45.8, y: -0.3, z: 0}
-  m_LocalScale: {x: 13.975, y: 0.5, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 61.901947, y: -0.15609355, z: 7.796875}
+  m_LocalScale: {x: 13.975008, y: 0.50000024, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 137339083}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!1 &137339082
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 137339083}
+  m_Layer: 0
+  m_Name: Level
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &137339083
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137339082}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -16.101948, y: -0.14390646, z: -7.796875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1631092937}
+  - {fileID: 1062442373}
+  - {fileID: 110736727}
+  - {fileID: 115514730}
+  - {fileID: 309439625}
+  - {fileID: 1565559989}
+  - {fileID: 381531270}
+  - {fileID: 1302143057}
+  - {fileID: 1770831245}
+  - {fileID: 1822060370}
+  - {fileID: 1603856655}
+  - {fileID: 1887548910}
+  - {fileID: 1557058271}
+  - {fileID: 771329267}
+  - {fileID: 443141209}
+  - {fileID: 667762653}
+  - {fileID: 602093868}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &204698302
 GameObject:
   m_ObjectHideFlags: 0
@@ -472,7 +519,7 @@ GameObject:
   - component: {fileID: 204698303}
   - component: {fileID: 204698305}
   - component: {fileID: 204698304}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pohon (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -569,7 +616,7 @@ GameObject:
   - component: {fileID: 208058876}
   - component: {fileID: 208058878}
   - component: {fileID: 208058877}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pohon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -666,7 +713,7 @@ GameObject:
   - component: {fileID: 216733288}
   - component: {fileID: 216733290}
   - component: {fileID: 216733289}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pohon (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -781,7 +828,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &308975307
 MonoBehaviour:
@@ -824,8 +871,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 309439624}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.6000037, y: 0.72804713, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 22.701952, y: 0.8719536, z: 7.796875}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1124282681}
@@ -836,8 +883,8 @@ Transform:
   - {fileID: 1125825479}
   - {fileID: 610922942}
   - {fileID: 685055621}
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 137339083}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &373754209
 GameObject:
@@ -850,7 +897,7 @@ GameObject:
   - component: {fileID: 373754210}
   - component: {fileID: 373754212}
   - component: {fileID: 373754211}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pohon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -945,7 +992,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 381531270}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Trees (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -959,8 +1006,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 381531269}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -18.72, y: -2.7000005, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -2.6180515, y: -2.5560942, z: 7.796875}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1007412097}
@@ -968,8 +1015,8 @@ Transform:
   - {fileID: 204698303}
   - {fileID: 778565382}
   - {fileID: 811118364}
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_Father: {fileID: 137339083}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &443141208
 GameObject:
@@ -980,7 +1027,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 443141209}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Trees (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -994,15 +1041,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 443141208}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 14.37, y: -5.4, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 30.471947, y: -5.2560935, z: 7.796875}
+  m_LocalScale: {x: 0.50000024, y: 0.50000024, z: 1}
   m_Children:
   - {fileID: 1081387392}
   - {fileID: 1935998283}
   - {fileID: 2029012026}
-  m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_Father: {fileID: 137339083}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &462041485
 GameObject:
@@ -1015,7 +1062,7 @@ GameObject:
   - component: {fileID: 462041486}
   - component: {fileID: 462041488}
   - component: {fileID: 462041487}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pohon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1122,7 +1169,170 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.1
+  m_Radius: 0.05
+--- !u!114 &482103306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482103304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0962815f117d0a04c987872f5035ca68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target:
+  - {fileID: 1124282681}
+  - {fileID: 60052478}
+  - {fileID: 1250714704}
+  - {fileID: 1962670182}
+  - {fileID: 2095844240}
+  - {fileID: 1125825479}
+  - {fileID: 610922942}
+  - {fileID: 685055621}
+  speed: 400
+  nextWaypointDistance: 3
+  currentPoint: 0
+  nextPoint: {fileID: 0}
+  detectArea: 5
+  rubish:
+  - {fileID: 4158017232163147005, guid: f064540a7b366a6408c2860abc748ca9, type: 3}
+  - {fileID: 4158017232163147005, guid: 70008cd16c6a78f4783fc56f983d10db, type: 3}
+  - {fileID: 4158017232163147005, guid: 3c99af7f13581ae4ba621b6fbeb9844e, type: 3}
+  spawnpos: {x: 0, y: 0, z: 0}
+  nextspawn: 0
+  spawnrate: 5
+  sampahJatuh: 0
+  nextSampah: {fileID: 0}
+--- !u!114 &482103307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482103304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  drawGizmos: 1
+  detailedGizmos: 0
+  startEndModifier:
+    addPoints: 0
+    exactStartPoint: 3
+    exactEndPoint: 3
+    useRaycasting: 0
+    mask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    useGraphRaycasting: 0
+  traversableTags: -1
+  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  graphMask:
+    value: -1
+--- !u!50 &482103308
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482103304}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 1.5
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!1001 &503335313
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4609031866242974306, guid: 0485ec6ff23392148a2e6c024762578c,
+        type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4609031866242974309, guid: 0485ec6ff23392148a2e6c024762578c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 4609031866242974309, guid: 0485ec6ff23392148a2e6c024762578c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 4609031866242974309, guid: 0485ec6ff23392148a2e6c024762578c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4609031866242974309, guid: 0485ec6ff23392148a2e6c024762578c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4609031866242974309, guid: 0485ec6ff23392148a2e6c024762578c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4609031866242974309, guid: 0485ec6ff23392148a2e6c024762578c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4609031866242974309, guid: 0485ec6ff23392148a2e6c024762578c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4609031866242974309, guid: 0485ec6ff23392148a2e6c024762578c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4609031866242974309, guid: 0485ec6ff23392148a2e6c024762578c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4609031866242974309, guid: 0485ec6ff23392148a2e6c024762578c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4609031866242974309, guid: 0485ec6ff23392148a2e6c024762578c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4609031866242974298, guid: 0485ec6ff23392148a2e6c024762578c,
+        type: 3}
+      propertyPath: viewIdField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4609031866242974298, guid: 0485ec6ff23392148a2e6c024762578c,
+        type: 3}
+      propertyPath: InstantiationId
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0485ec6ff23392148a2e6c024762578c, type: 3}
 --- !u!1 &506808227
 GameObject:
   m_ObjectHideFlags: 0
@@ -1134,7 +1344,7 @@ GameObject:
   - component: {fileID: 506808228}
   - component: {fileID: 506808230}
   - component: {fileID: 506808229}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pohon (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1231,7 +1441,7 @@ GameObject:
   - component: {fileID: 521340174}
   - component: {fileID: 521340176}
   - component: {fileID: 521340175}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pohon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1328,7 +1538,7 @@ GameObject:
   - component: {fileID: 531517122}
   - component: {fileID: 531517124}
   - component: {fileID: 531517123}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pohon (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1425,7 +1635,7 @@ GameObject:
   - component: {fileID: 543877498}
   - component: {fileID: 543877500}
   - component: {fileID: 543877499}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pohon (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1520,7 +1730,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 602093868}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Trees (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1534,15 +1744,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 602093867}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -4.37, y: 25.5, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 11.731948, y: 25.643906, z: 7.796875}
+  m_LocalScale: {x: 0.50000024, y: 0.50000024, z: 1}
   m_Children:
   - {fileID: 521340174}
   - {fileID: 373754210}
   - {fileID: 543877498}
-  m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_Father: {fileID: 137339083}
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &610922941
 GameObject:
@@ -1568,7 +1778,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 610922941}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.7, y: 15.4, z: 0}
+  m_LocalPosition: {x: -16.7, y: 21.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 309439625}
@@ -1583,7 +1793,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 667762653}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Trees (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1597,15 +1807,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 667762652}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 14.37, y: 25.5, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 30.471947, y: 25.643906, z: 7.796875}
+  m_LocalScale: {x: 0.50000024, y: 0.50000024, z: 1}
   m_Children:
   - {fileID: 1002803401}
   - {fileID: 1590209569}
   - {fileID: 1622541850}
-  m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_Father: {fileID: 137339083}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &685055620
 GameObject:
@@ -1631,7 +1841,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 685055620}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.5, y: 15.4, z: 0}
+  m_LocalPosition: {x: 31.6, y: 26.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 309439625}
@@ -1714,7 +1924,7 @@ GameObject:
   - component: {fileID: 748365470}
   - component: {fileID: 748365472}
   - component: {fileID: 748365471}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pohon (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1812,7 +2022,7 @@ GameObject:
   - component: {fileID: 771329266}
   - component: {fileID: 771329265}
   - component: {fileID: 771329264}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Trashbin B3
   m_TagString: TrashBin
   m_Icon: {fileID: 0}
@@ -1922,12 +2132,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 771329263}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.37, y: 1.6, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 10.731948, y: 1.7439065, z: 7.796875}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_Father: {fileID: 137339083}
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &778565381
 GameObject:
@@ -1940,7 +2150,7 @@ GameObject:
   - component: {fileID: 778565382}
   - component: {fileID: 778565384}
   - component: {fileID: 778565383}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pohon (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2037,7 +2247,7 @@ GameObject:
   - component: {fileID: 811118364}
   - component: {fileID: 811118366}
   - component: {fileID: 811118365}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pohon (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2134,7 +2344,7 @@ GameObject:
   - component: {fileID: 914535472}
   - component: {fileID: 914535474}
   - component: {fileID: 914535473}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pohon (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2231,7 +2441,7 @@ GameObject:
   - component: {fileID: 1002803401}
   - component: {fileID: 1002803403}
   - component: {fileID: 1002803402}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pohon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2328,7 +2538,7 @@ GameObject:
   - component: {fileID: 1007412097}
   - component: {fileID: 1007412099}
   - component: {fileID: 1007412098}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pohon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2414,6 +2624,282 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1059494759
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3648729655494607080, guid: eaca2a3b886c14542842e92a68bfa8be,
+        type: 3}
+      propertyPath: m_Name
+      value: Enemies (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3648729655494607080, guid: eaca2a3b886c14542842e92a68bfa8be,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153114861755132160, guid: eaca2a3b886c14542842e92a68bfa8be,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -35.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153114861755132160, guid: eaca2a3b886c14542842e92a68bfa8be,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153114861755132160, guid: eaca2a3b886c14542842e92a68bfa8be,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153114861755132160, guid: eaca2a3b886c14542842e92a68bfa8be,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153114861755132160, guid: eaca2a3b886c14542842e92a68bfa8be,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153114861755132160, guid: eaca2a3b886c14542842e92a68bfa8be,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153114861755132160, guid: eaca2a3b886c14542842e92a68bfa8be,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153114861755132160, guid: eaca2a3b886c14542842e92a68bfa8be,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153114861755132160, guid: eaca2a3b886c14542842e92a68bfa8be,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153114861755132160, guid: eaca2a3b886c14542842e92a68bfa8be,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153114861755132160, guid: eaca2a3b886c14542842e92a68bfa8be,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153114861755132160, guid: eaca2a3b886c14542842e92a68bfa8be,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153114861755132160, guid: eaca2a3b886c14542842e92a68bfa8be,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6991013662291807581, guid: eaca2a3b886c14542842e92a68bfa8be,
+        type: 3}
+      propertyPath: path.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6991013662291807581, guid: eaca2a3b886c14542842e92a68bfa8be,
+        type: 3}
+      propertyPath: rubish.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6991013662291807581, guid: eaca2a3b886c14542842e92a68bfa8be,
+        type: 3}
+      propertyPath: path.Array.data[0]
+      value: 
+      objectReference: {fileID: 1124282681}
+    - target: {fileID: 6991013662291807581, guid: eaca2a3b886c14542842e92a68bfa8be,
+        type: 3}
+      propertyPath: path.Array.data[1]
+      value: 
+      objectReference: {fileID: 60052478}
+    - target: {fileID: 6991013662291807581, guid: eaca2a3b886c14542842e92a68bfa8be,
+        type: 3}
+      propertyPath: path.Array.data[2]
+      value: 
+      objectReference: {fileID: 1250714704}
+    - target: {fileID: 6991013662291807581, guid: eaca2a3b886c14542842e92a68bfa8be,
+        type: 3}
+      propertyPath: path.Array.data[3]
+      value: 
+      objectReference: {fileID: 1962670182}
+    - target: {fileID: 6991013662291807581, guid: eaca2a3b886c14542842e92a68bfa8be,
+        type: 3}
+      propertyPath: path.Array.data[4]
+      value: 
+      objectReference: {fileID: 2095844240}
+    - target: {fileID: 6991013662291807581, guid: eaca2a3b886c14542842e92a68bfa8be,
+        type: 3}
+      propertyPath: path.Array.data[5]
+      value: 
+      objectReference: {fileID: 1125825479}
+    - target: {fileID: 6991013662291807581, guid: eaca2a3b886c14542842e92a68bfa8be,
+        type: 3}
+      propertyPath: path.Array.data[6]
+      value: 
+      objectReference: {fileID: 610922942}
+    - target: {fileID: 6991013662291807581, guid: eaca2a3b886c14542842e92a68bfa8be,
+        type: 3}
+      propertyPath: path.Array.data[7]
+      value: 
+      objectReference: {fileID: 685055621}
+    - target: {fileID: 6991013662291807581, guid: eaca2a3b886c14542842e92a68bfa8be,
+        type: 3}
+      propertyPath: runRad
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6991013662291807581, guid: eaca2a3b886c14542842e92a68bfa8be,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6991013662291807581, guid: eaca2a3b886c14542842e92a68bfa8be,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6991013662291807581, guid: eaca2a3b886c14542842e92a68bfa8be,
+        type: 3}
+      propertyPath: dashRad
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6991013662291807581, guid: eaca2a3b886c14542842e92a68bfa8be,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6991013662291807581, guid: eaca2a3b886c14542842e92a68bfa8be,
+        type: 3}
+      propertyPath: homePosition
+      value: 
+      objectReference: {fileID: 1124282681}
+    - target: {fileID: 6991013662291807581, guid: eaca2a3b886c14542842e92a68bfa8be,
+        type: 3}
+      propertyPath: rubish.Array.data[0]
+      value: 
+      objectReference: {fileID: 4158017232163147005, guid: f064540a7b366a6408c2860abc748ca9,
+        type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eaca2a3b886c14542842e92a68bfa8be, type: 3}
+--- !u!1 &1059494760 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3648729655494607080, guid: eaca2a3b886c14542842e92a68bfa8be,
+    type: 3}
+  m_PrefabInstance: {fileID: 1059494759}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1059494761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059494760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  drawGizmos: 1
+  detailedGizmos: 0
+  startEndModifier:
+    addPoints: 0
+    exactStartPoint: 3
+    exactEndPoint: 3
+    useRaycasting: 0
+    mask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    useGraphRaycasting: 0
+  traversableTags: -1
+  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  graphMask:
+    value: -1
+--- !u!114 &1059494762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059494760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0962815f117d0a04c987872f5035ca68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target:
+  - {fileID: 1124282681}
+  - {fileID: 60052478}
+  - {fileID: 1250714704}
+  - {fileID: 1962670182}
+  - {fileID: 2095844240}
+  - {fileID: 1125825479}
+  - {fileID: 610922942}
+  - {fileID: 685055621}
+  speed: 400
+  nextWaypointDistance: 3
+  currentPoint: 0
+  nextPoint: {fileID: 0}
+  detectArea: 5
+  rubish:
+  - {fileID: 4158017232163147005, guid: f064540a7b366a6408c2860abc748ca9, type: 3}
+  - {fileID: 4158017232163147005, guid: 70008cd16c6a78f4783fc56f983d10db, type: 3}
+  - {fileID: 4158017232163147005, guid: 3c99af7f13581ae4ba621b6fbeb9844e, type: 3}
+  spawnpos: {x: 0, y: 0, z: 0}
+  nextspawn: 0
+  spawnrate: 5
+  sampahJatuh: 0
+  nextSampah: {fileID: 0}
+--- !u!58 &1059494763
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059494760}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.05
+--- !u!50 &1059494764
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059494760}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 1.5
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1062442370
 GameObject:
   m_ObjectHideFlags: 0
@@ -2425,7 +2911,7 @@ GameObject:
   - component: {fileID: 1062442373}
   - component: {fileID: 1062442372}
   - component: {fileID: 1062442371}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2514,12 +3000,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1062442370}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.5, y: 31, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18.601948, y: 31.143906, z: 7.796875}
   m_LocalScale: {x: 19, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 137339083}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1081387391
 GameObject:
@@ -2532,7 +3018,7 @@ GameObject:
   - component: {fileID: 1081387392}
   - component: {fileID: 1081387394}
   - component: {fileID: 1081387393}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pohon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2642,7 +3128,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1124282680}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 33.4, y: 23.9, z: 0}
+  m_LocalPosition: {x: 33.4, y: -28.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 309439625}
@@ -2672,7 +3158,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1125825478}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -42.7, y: 24.5, z: 0}
+  m_LocalPosition: {x: -42.7, y: 18.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 309439625}
@@ -2689,7 +3175,7 @@ GameObject:
   - component: {fileID: 1131761965}
   - component: {fileID: 1131761967}
   - component: {fileID: 1131761966}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pohon (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2786,7 +3272,7 @@ GameObject:
   - component: {fileID: 1237223251}
   - component: {fileID: 1237223253}
   - component: {fileID: 1237223252}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pohon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2887,7 +3373,7 @@ PrefabInstance:
     - target: {fileID: 3648729655494607080, guid: eaca2a3b886c14542842e92a68bfa8be,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3153114861755132160, guid: eaca2a3b886c14542842e92a68bfa8be,
         type: 3}
@@ -2927,7 +3413,7 @@ PrefabInstance:
     - target: {fileID: 3153114861755132160, guid: eaca2a3b886c14542842e92a68bfa8be,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3153114861755132160, guid: eaca2a3b886c14542842e92a68bfa8be,
         type: 3}
@@ -2943,6 +3429,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153114861755132160, guid: eaca2a3b886c14542842e92a68bfa8be,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153114861755132160, guid: eaca2a3b886c14542842e92a68bfa8be,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6991013662291807581, guid: eaca2a3b886c14542842e92a68bfa8be,
         type: 3}
@@ -3007,7 +3503,7 @@ PrefabInstance:
     - target: {fileID: 6991013662291807581, guid: eaca2a3b886c14542842e92a68bfa8be,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6991013662291807581, guid: eaca2a3b886c14542842e92a68bfa8be,
         type: 3}
@@ -3056,7 +3552,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1250714703}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 33.2, y: -21.6, z: 0}
+  m_LocalPosition: {x: -3, y: -4.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 309439625}
@@ -3073,7 +3569,7 @@ GameObject:
   - component: {fileID: 1271389720}
   - component: {fileID: 1271389722}
   - component: {fileID: 1271389721}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pohon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3269,7 +3765,7 @@ GameObject:
   - component: {fileID: 1288053158}
   - component: {fileID: 1288053160}
   - component: {fileID: 1288053159}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pohon (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3364,7 +3860,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1302143057}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Trees (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3378,8 +3874,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1302143056}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: 15.8, y: -11.1, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
+  m_LocalPosition: {x: 31.901947, y: -10.956094, z: 7.796875}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1718838969}
@@ -3387,8 +3883,8 @@ Transform:
   - {fileID: 748365470}
   - {fileID: 80153153}
   - {fileID: 216733288}
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_Father: {fileID: 137339083}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!1 &1359124871
 GameObject:
@@ -3401,7 +3897,7 @@ GameObject:
   - component: {fileID: 1359124872}
   - component: {fileID: 1359124874}
   - component: {fileID: 1359124873}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pohon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3498,7 +3994,7 @@ GameObject:
   - component: {fileID: 1384801484}
   - component: {fileID: 1384801486}
   - component: {fileID: 1384801485}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pohon (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3596,7 +4092,7 @@ GameObject:
   - component: {fileID: 1557058270}
   - component: {fileID: 1557058269}
   - component: {fileID: 1557058268}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Trashbin Organik
   m_TagString: TrashBin
   m_Icon: {fileID: 0}
@@ -3706,12 +4202,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1557058267}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.93, y: 1.6, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18.031948, y: 1.7439065, z: 7.796875}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_Father: {fileID: 137339083}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1565559988
 GameObject:
@@ -3722,7 +4218,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1565559989}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Trees
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3736,8 +4232,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1565559988}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.49537, y: 12.5, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.606578, y: 12.643907, z: 7.796875}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 208058876}
@@ -3745,8 +4241,8 @@ Transform:
   - {fileID: 1924247041}
   - {fileID: 914535472}
   - {fileID: 1131761965}
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_Father: {fileID: 137339083}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1590209568
 GameObject:
@@ -3759,7 +4255,7 @@ GameObject:
   - component: {fileID: 1590209569}
   - component: {fileID: 1590209571}
   - component: {fileID: 1590209570}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pohon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3918,12 +4414,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1603856653}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 1.96, y: 1.2, z: 0.1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 18.061947, y: 1.3439065, z: 7.896875}
   m_LocalScale: {x: 9, y: 9, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_Father: {fileID: 137339083}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1622541849
 GameObject:
@@ -3936,7 +4432,7 @@ GameObject:
   - component: {fileID: 1622541850}
   - component: {fileID: 1622541852}
   - component: {fileID: 1622541851}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pohon (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4033,7 +4529,7 @@ GameObject:
   - component: {fileID: 1631092937}
   - component: {fileID: 1631092936}
   - component: {fileID: 1631092935}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4122,12 +4618,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1631092934}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.5, y: -31.2, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18.601948, y: -31.056095, z: 7.796875}
   m_LocalScale: {x: 19, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 137339083}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1665344791
 GameObject:
@@ -4140,7 +4636,7 @@ GameObject:
   - component: {fileID: 1665344792}
   - component: {fileID: 1665344794}
   - component: {fileID: 1665344793}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pohon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4281,6 +4777,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 50
@@ -4314,7 +4812,7 @@ GameObject:
   - component: {fileID: 1718838969}
   - component: {fileID: 1718838971}
   - component: {fileID: 1718838970}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pohon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4409,7 +4907,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1770831245}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Trees (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4423,8 +4921,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1770831244}
-  m_LocalRotation: {x: 0, y: -0, z: 0.7071068, w: -0.7071068}
-  m_LocalPosition: {x: 24, y: 4.3416915, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: -0.7071068}
+  m_LocalPosition: {x: 40.101948, y: 4.485598, z: 7.796875}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 462041486}
@@ -4432,8 +4930,8 @@ Transform:
   - {fileID: 531517122}
   - {fileID: 506808228}
   - {fileID: 1384801484}
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_Father: {fileID: 137339083}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
 --- !u!1 &1822060369
 GameObject:
@@ -4444,7 +4942,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1822060370}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Trees (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4458,15 +4956,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1822060369}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -4.37, y: -5.4, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 11.731948, y: -5.2560935, z: 7.796875}
+  m_LocalScale: {x: 0.50000024, y: 0.50000024, z: 1}
   m_Children:
   - {fileID: 2139791293}
   - {fileID: 1237223251}
   - {fileID: 1288053158}
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_Father: {fileID: 137339083}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1887548908
 GameObject:
@@ -4480,7 +4978,7 @@ GameObject:
   - component: {fileID: 1887548909}
   - component: {fileID: 1887548911}
   - component: {fileID: 1887548912}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Trashbin Anorganik
   m_TagString: TrashBin
   m_Icon: {fileID: 0}
@@ -4543,12 +5041,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1887548908}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.63, y: 1.6, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 24.731949, y: 1.7439065, z: 7.796875}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_Father: {fileID: 137339083}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1887548911
 Rigidbody2D:
@@ -4608,7 +5106,7 @@ GameObject:
   - component: {fileID: 1924247041}
   - component: {fileID: 1924247043}
   - component: {fileID: 1924247042}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pohon (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4705,7 +5203,7 @@ GameObject:
   - component: {fileID: 1935998283}
   - component: {fileID: 1935998285}
   - component: {fileID: 1935998284}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pohon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4815,7 +5313,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1962670181}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.2, y: -14.3, z: 0}
+  m_LocalPosition: {x: -3.2, y: -27, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 309439625}
@@ -4832,7 +5330,7 @@ GameObject:
   - component: {fileID: 1985195677}
   - component: {fileID: 1985195679}
   - component: {fileID: 1985195678}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pohon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4918,6 +5416,92 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2003547123
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2003547125}
+  - component: {fileID: 2003547124}
+  m_Layer: 0
+  m_Name: A*
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2003547124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003547123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78396926cbbfc4ac3b48fc5fc34a87d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  data:
+    dataString: UEsDBBQAAAgIAAA4IeybMZEVcgIAAB0FAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VE1v4jAQ/SvI5wUlIYGyt92U0j30Q6WrXnJxbIdYGDvyR4FW/PcdO0mTIi0XnDdvxm/eTPKJuDQNI1bpjeb0QVGGfk6QP6MfkyF4z054p+SWf7Ce88aprT0JB84LtlwBHvs0ow7Mak5+yZ3w5AhAJ3ml9GFNdyxXxhqAKywMg5BW1mdLgD4n6AR/05VPOcMpWfrTB5xW0eQCR8KkZXqgJrN0Bb9FvOoy4tniJo7iZD2NFl1qNlsss+UyzQCM56GMk0TgQ8Oo72modtNXWcxnq1A3CXQJXXdM3yFRQnDTSUb23ARLctwYBw0DgXIMFgSdnl8zvqutVztOfqoqw2znj8bnW67BybYq+q1aew/Y7Ft971i4ICBK0iCqrfrwf0Kl1eG+vzqO/DW25mT/gs8EGzsawRi+/a7dySMWe1wK9lYz+ag2WjlJIWi186nOsOR2ePzqLq8Z2Q94K/YKdM1gfT/xft7TeHK5BANOueCH0odmaQtshQqWhzVhGobzBwSHJTJdCUC9ir+GveLdeNu6wB3XxkKo61J6eaVy2lPROnjmu3E2V1qyAHeiGyaxsOdnKGOvp3gVG117FbnD/r3qLu9i/etylRLggR9FV6FndfwalqnV8YGZ+slZwSUbRPvAI/iUKynbJRt70qdtna4wGaXtHKfflwtlJKHLks6zNClpGc2nJUlulkmUUpJmaZbFKOwel9AnFs+t0M4emJocikvYs/5zM9lo3ISFpxofN/zjoEaWc1mpLdGMyadvFQzTcAe8l3RNOfizZdZyGcaNPgskFNkzWnzxi9Do+mQ1LobuC9Twd2U9UqA8fF4KdEGXf1BLAwQUAAAICAAAOCHs8YRi92wAAAB4AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9IzNNRRUEovSizIKAaKgDmlmSkgdrSSabJRinlSirGpiVFSSpKBsW5SspGFuZGBSUqyiamJqamhUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAAA4IeybMZEVcgIAAB0FAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAAA4IezxhGL3bAAAAHgAAAAJACQAAAAAAAAAAAAAAL8CAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAdgMAAAAA
+    upgradeData: 
+    file_cachedStartup: {fileID: 0}
+    data_cachedStartup: 
+    cacheStartup: 0
+  showNavGraphs: 1
+  showUnwalkableNodes: 1
+  debugMode: 0
+  debugFloor: 0
+  debugRoof: 1
+  manualDebugFloorRoof: 0
+  showSearchTree: 0
+  unwalkableNodeDebugSize: 0.3
+  logPathResults: 1
+  maxNearestNodeDistance: 100
+  scanOnStartup: 1
+  fullGetNearestSearch: 0
+  prioritizeGraphs: 0
+  prioritizeGraphsLimit: 1
+  colorSettings:
+    _SolidColor: {r: 0.11764706, g: 0.4, b: 0.7882353, a: 0.9}
+    _UnwalkableNode: {r: 1, g: 0, b: 0, a: 0.5}
+    _BoundsHandles: {r: 0.29, g: 0.454, b: 0.741, a: 0.9}
+    _ConnectionLowLerp: {r: 0, g: 1, b: 0, a: 0.5}
+    _ConnectionHighLerp: {r: 1, g: 0, b: 0, a: 0.5}
+    _MeshEdgeColor: {r: 0, g: 0, b: 0, a: 0.5}
+    _AreaColors:
+    - {r: 0, g: 0, b: 0, a: 0}
+  tagNames: []
+  heuristic: 2
+  heuristicScale: 1
+  threadCount: 1
+  maxFrameTime: 1
+  batchGraphUpdates: 0
+  graphUpdateBatchingInterval: 0.2
+  euclideanEmbedding:
+    mode: 0
+    seed: 0
+    pivotPointRoot: {fileID: 0}
+    spreadOutCount: 1
+  showGraphs: 1
+--- !u!4 &2003547125
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003547123}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2029012025
 GameObject:
   m_ObjectHideFlags: 0
@@ -4929,7 +5513,7 @@ GameObject:
   - component: {fileID: 2029012026}
   - component: {fileID: 2029012028}
   - component: {fileID: 2029012027}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pohon (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5072,6 +5656,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64ef2230bdc261048bdb1577aefe55cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  WaitScreen: {fileID: 0}
 --- !u!1 &2095844239
 GameObject:
   m_ObjectHideFlags: 0
@@ -5113,7 +5698,7 @@ GameObject:
   - component: {fileID: 2139791293}
   - component: {fileID: 2139791295}
   - component: {fileID: 2139791294}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pohon
   m_TagString: Untagged
   m_Icon: {fileID: 0}

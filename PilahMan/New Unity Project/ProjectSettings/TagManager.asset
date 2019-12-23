@@ -6,7 +6,18 @@ TagManager:
   tags:
   - Rubish
   - TrashBin
+  - TrashBin
   - HomePosition
+  - Anorganik
+  - B3
+  - TrashB3
+  - TrashOrganic
+  - TrashInorganic
+  - Wall
+  - TrashBin
+  - HomePosition
+  - Anorganik
+  - B3
   layers:
   - Default
   - TransparentFX
@@ -18,7 +29,7 @@ TagManager:
   - 
   - Player
   - Rubish
-  - 
+  - Obstacle
   - 
   - 
   - 
