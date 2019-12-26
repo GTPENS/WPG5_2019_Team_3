@@ -11,13 +11,14 @@ public class GetScore : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        scoretext = GetComponent<Text>();
     }
 
     // Update is called once per frame
     void Update()
     {
 
+        scoretext.text = PhotonNetwork.PlayerList[0].GetScore().ToString();
         //if (PhotonNetwork.IsMasterClient)
         //{
 

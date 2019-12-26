@@ -58,7 +58,7 @@ Camera:
   far clip plane: 1000
   field of view: 137
   orthographic: 1
-  orthographic size: 8.169489
+  orthographic size: 16.728224
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -280,8 +280,8 @@ MonoBehaviour:
   - {fileID: 4609031866242974297}
   - {fileID: 4609031866242974296}
   - {fileID: 8102930103515309268}
-  viewIdField: 5
-  InstantiationId: 5
+  viewIdField: 13
+  InstantiationId: 13
   isRuntimeInstantiated: 0
 --- !u!114 &4609031866242974297
 MonoBehaviour:

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
+using Photon.Pun.UtilityScripts;
 
 public class Trash : MonoBehaviourPun
 {
@@ -65,7 +66,9 @@ public class Trash : MonoBehaviourPun
             if (collision.gameObject.tag == typeTrash && player.grab == true)
             {
                 player.grab = false;
+          
                 player.score += 1;
+            PhotonNetwork.PlayerList[0].AddScore(1);
             PhotonNetwork.Destroy(this.gameObject);
                 Destroy(this.gameObject);
 

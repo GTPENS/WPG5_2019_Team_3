@@ -4,6 +4,7 @@ using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
 using UnityEngine.UI;
+using Photon.Pun.UtilityScripts;
 
 public class PhotonManager : MonoBehaviourPunCallbacks
 {
@@ -12,30 +13,43 @@ public class PhotonManager : MonoBehaviourPunCallbacks
     int playerCount;
     public GameObject WaitScreen;
     public GameObject gameOverScreen;
+    public GameObject winScreen;
+    int score;
+    public int goal;
     // Start is called before the first frame update
 
     private void Awake()
     {
         PhotonNetwork.ConnectUsingSettings();
+        
     }
     // Update is called once per frame
     void Update()
     {
         playerCount = PhotonNetwork.PlayerList.Length;
+        score = PhotonNetwork.PlayerList[0].GetScore();
         if (playerCount >= 2)
         {
             WaitScreen.SetActive(false);
             //Time.timeScale = 1; 
             time -= Time.deltaTime;
-            gameOverScreen.SetActive(true);
+            
         }
         
         TimeText.text = time.ToString();
         if (time <= 0)
         {
             Time.timeScale = 0;
+            gameOverScreen.SetActive(true);
 
         }
+
+        if (score >=goal)
+        {
+            Time.timeScale = 0;
+            winScreen.SetActive(true);
+        }
+        
     }
     public override void OnConnectedToMaster()
     {

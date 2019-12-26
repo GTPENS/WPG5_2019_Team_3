@@ -48,14 +48,14 @@ public class Player : MonoBehaviour
         //Move the player
         Move(direction);
         //scoretext.text = score.ToString();
-        if (PhotonNetwork.IsMasterClient)
-        {
-            scoretext = GameObject.Find("skorp1").GetComponent<Text>();
-            PhotonNetwork.PlayerList[0].SetScore(score);
+        //if (PhotonNetwork.IsMasterClient)
+        //{
+        //    scoretext = GameObject.Find("skorp1").GetComponent<Text>();
+        //    PhotonNetwork.PlayerList[0].SetScore(score);
 
         
-        };
-        scoretext.text = score.ToString();
+        
+        //scoretext.text = score.ToString();
     }
 
     void Move(Vector2 direction)

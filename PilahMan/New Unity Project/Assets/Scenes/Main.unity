@@ -2792,6 +2792,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4158017232163147005, guid: f064540a7b366a6408c2860abc748ca9,
         type: 3}
+    - target: {fileID: 482103314, guid: eaca2a3b886c14542842e92a68bfa8be, type: 3}
+      propertyPath: viewIdField
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 482103314, guid: eaca2a3b886c14542842e92a68bfa8be, type: 3}
+      propertyPath: InstantiationId
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eaca2a3b886c14542842e92a68bfa8be, type: 3}
 --- !u!1 &1059494760 stripped
@@ -4777,8 +4785,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 50
@@ -5629,7 +5635,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3235ea67d972ce948bcd47df4dc1412e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScoreText: {fileID: 1685848820}
 --- !u!4 &2089663084
 Transform:
   m_ObjectHideFlags: 0
@@ -5656,7 +5661,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64ef2230bdc261048bdb1577aefe55cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TimeText: {fileID: 0}
+  time: 60
   WaitScreen: {fileID: 0}
+  gameOverScreen: {fileID: 0}
 --- !u!1 &2095844239
 GameObject:
   m_ObjectHideFlags: 0
